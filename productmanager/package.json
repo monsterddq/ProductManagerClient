@@ -6,6 +6,7 @@
     "bootstrap": "^3.3.7",
     "jquery": "^3.2.1",
     "react": "^16.0.0",
+    "react-bootstrap-select": "^0.14.0",
     "react-dom": "^16.0.0",
     "react-hot-loader": "^3.1.1",
     "react-promise": "^2.0.0",

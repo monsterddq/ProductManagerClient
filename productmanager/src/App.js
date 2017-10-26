@@ -1,6 +1,6 @@
+import { AppContainer } from 'react-hot-loader';
 import React, { Component } from 'react';
 import './App.css';
-import { AppContainer } from 'react-hot-loader';
 import { BrowserRouter } from 'react-router-dom';
 import * as RoutesModule from './Routes';
 import 'bootstrap';

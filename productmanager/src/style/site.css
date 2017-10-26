@@ -64,3 +64,11 @@
         text-overflow: ellipsis;
     }
 }
+
+.link-button, .link-button:hover{
+  color: #fff;
+  text-decoration: none;
+}
+form{
+  padding-top: 20px;
+}

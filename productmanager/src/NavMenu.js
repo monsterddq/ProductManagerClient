@@ -13,23 +13,23 @@ export default class NavMenu extends Component{
                       <span className='icon-bar'></span>
                       <span className='icon-bar'></span>
                   </button>
-                  <Link className='navbar-brand' to={ '/' }>Quản lý sản phẩm</Link>
+                  <Link className='navbar-brand' to={ '/sanpham' }>Quản lý sản phẩm</Link>
               </div>
               <div className='clearfix'></div>
               <div className='navbar-collapse collapse'>
                   <ul className='nav navbar-nav'>
                       <li>
-                          <NavLink to={ '/' } exact activeClassName='active'>
+                          <NavLink to={ '/sanpham' } exact activeClassName='active'>
                               <span className='glyphicon glyphicon-home'></span> Trang chủ
                           </NavLink>
                       </li>
                       <li>
-                          <NavLink to={ '/product' } activeClassName='active'>
+                          <NavLink to={ '/sanpham/product' } activeClassName='active'>
                               <span className='glyphicon glyphicon-education'></span> Sản phẩm
                           </NavLink>
                       </li>
                       <li>
-                          <NavLink to={ '/unit' } activeClassName='active'>
+                          <NavLink to={ '/sanpham/unit' } activeClassName='active'>
                               <span className='glyphicon glyphicon-th-list'></span> Đơn vị
                           </NavLink>
                       </li>
